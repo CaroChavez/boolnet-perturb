@@ -57,7 +57,7 @@ if($equation eq 'SQUAD' || $equation eq 'Villarreal'){
 
     ######################################################
     my @BoolFunc;
-    my $squad = "dX = ((-exp(0.5*h)+exp(-h*(w_X)))/((1-exp(0.5*h))*(1+exp(-h*(w_X-0.5)))))-(alphaX*X)";
+    my $squad = "dX = ((-exp(0.5*h)+exp(-h*(w_X-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_X-0.5)))))-(alphaX*X)";
     my $villarreal = "dX = 1/(1+(exp(-2*h*(w_X-b)))) - (alphaX*X)";
     my $eq = ();
     my @nodes = ();
